@@ -14,6 +14,8 @@ python -m sunnynet.cli --ckpt ../SunnyNet-P100M-Kaggle/models/p100m_en.pt --toke
 
 Change `--prompt` to test other completions. The tokenizer included here is required: the tokenizer in a different SunnyNet checkout can encode prompts differently.
 
+For 40 longer, unfiltered, reproducible input/output examples, see [SAMPLES.md](SAMPLES.md).
+
 ## Observed input and output
 
 These are actual generated continuations, not selected excerpts. Each example used the command above, changing only `--prompt`. Output below excludes the prompt itself; trailing spaces are trimmed for display.
